@@ -7,7 +7,7 @@
                 {
                     "name": "Show Calendar",
                     "priority": 1,
-                    "action": "./bin/showcal.sh"
+                    "action": "./bin/showcal.sh",
                     "exitmenu": false,
 			        "checked": true,
 			        "status": false
