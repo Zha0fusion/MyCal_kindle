@@ -11,6 +11,15 @@
                     "exitmenu": false,
 			        "checked": true,
 			        "status": false
+                },
+                {
+                    "name": "Show Calendar",
+                    "priority": 1,
+                    "action": "./bin/stop.sh",
+                    "exitmenu": false,
+			        "checked": false,
+			        "status": false,
+                    "internal": "calendar closed"
                 }
             ]
         }
