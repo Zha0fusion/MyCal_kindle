@@ -13,7 +13,7 @@
 			        "status": false
                 },
                 {
-                    "name": "Show Calendar",
+                    "name": "Stop Show Calendar",
                     "priority": 2,
                     "action": "./bin/stop.sh",
                     "exitmenu": false,
