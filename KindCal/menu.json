@@ -14,7 +14,7 @@
                 },
                 {
                     "name": "Show Calendar",
-                    "priority": 1,
+                    "priority": 2,
                     "action": "./bin/stop.sh",
                     "exitmenu": false,
 			        "checked": false,
