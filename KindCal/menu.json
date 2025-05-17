@@ -18,7 +18,7 @@
                     "action": "./bin/stop.sh",
                     "exitmenu": false,
 			        "checked": false,
-			        "status": false,
+			        "status": true,
                     "internal": "calendar closed"
                 }
             ]
