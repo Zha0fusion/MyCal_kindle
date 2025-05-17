@@ -11,7 +11,7 @@ mkdir -p "$CRONDIR"
 
 # 写入每 30 分钟执行一次的任务
 # 使用绝对路径确保可靠执行
-echo "* * * * * /mnt/us/extensions/KindCal/bin/cron_showcal.sh" > "$CRONFILE"
+echo "*/30 * * * * /mnt/us/extensions/KindCal/bin/cron_showcal.sh" > "$CRONFILE"
 
 # 重启 crond（杀掉旧的，重启新的）
 killall crond 2>/dev/null
